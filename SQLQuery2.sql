@@ -1,0 +1,1 @@
+﻿select a.Id, a.Name, a.Description, a.NumberOfPassagers, e.Description Engine from AirPlane a, Engine e where a.IdEngine = e.Id
